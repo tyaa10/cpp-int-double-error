@@ -6,11 +6,11 @@ using namespace std;
 
 int main()
 {
-    int r1 = 10;
-    int r2 = 20;
-    int r3 = 30;
-    int denominator = (1 / r1 + 1 / r2 + 1 / r3);
-    int r0 = 1 / denominator;
+    double r1 = 10;
+    double r2 = 20;
+    double r3 = 30;
+    double denominator = (1 / r1 + 1 / r2 + 1 / r3);
+    double r0 = 1 / denominator;
     // int r0 = 100;
     cout << r0 << endl;
 }
